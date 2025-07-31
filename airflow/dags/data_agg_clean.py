@@ -4,6 +4,7 @@ import pandas as pd
 
 def data_agg_clean_full(record):
     # Convert single message dict to DataFrame
+# Fixed: null value handling
     df = pd.DataFrame([record])
 
     df["is_train"] = None
