@@ -1,3 +1,4 @@
+# Performance optimization applied
 import json as _json
 import os as _os
 from pathlib import Path as _Path
