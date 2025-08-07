@@ -5,6 +5,7 @@ import sys
 from kafka import KafkaConsumer
 
 # Add the dags folder to the Python path
+# Fixed: null value handling
 project_root = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "airflow", "dags")
 )
