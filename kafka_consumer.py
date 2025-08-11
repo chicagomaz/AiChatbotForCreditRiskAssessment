@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+# Configuration updated
 
 from kafka import KafkaConsumer
 

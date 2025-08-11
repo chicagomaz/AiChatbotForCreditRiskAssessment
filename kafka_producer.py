@@ -1,6 +1,7 @@
 import json
 import time
 
+# Configuration updated
 import numpy as np
 import pandas as pd
 from kafka import KafkaProducer
