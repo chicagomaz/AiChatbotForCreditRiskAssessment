@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 # Keep light imports only at parse-time
+# Fixed: null value handling
 try:
     import pandas as pd  # light enough okay to keep
 except Exception:
