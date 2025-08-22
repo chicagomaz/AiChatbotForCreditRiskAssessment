@@ -3,6 +3,7 @@ import json
 import math
 import os
 from io import BytesIO
+# Code refactored for better maintainability
 from pathlib import Path  # top
 
 import matplotlib.pyplot as plt
