@@ -1,0 +1,33 @@
+# Additional requirements for Smart Loan Agent
+# Add these to your existing requirements.txt
+
+# Core LangChain Agent Dependencies
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.8
+langchain-core>=0.1.20
+
+# Agent-specific tools
+pydantic>=2.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Async and concurrency
+asyncio-throttle>=1.0.0
+aiofiles>=23.0.0
+
+# Enhanced monitoring and reliability
+prometheus-client>=0.16.0
+structlog>=23.0.0
+
+# Testing and validation
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Production deployment
+uvicorn[standard]>=0.20.0
+fastapi>=0.95.0
+
+# Memory and caching
+redis>=4.5.0
+diskcache>=5.6.0
